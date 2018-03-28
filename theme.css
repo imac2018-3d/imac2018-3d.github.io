@@ -2,8 +2,6 @@
 * Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
 @import url("https://fonts.googleapis.com/css?family=Cinzel Decorative");
-@import url("https://fonts.googleapis.com/css?family=Cinzel-Decorative");
-@import url("https://fonts.googleapis.com/css?family=Cinzel-Decorative");
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
 @import url("https://fonts.googleapis.com/css?family=Open Sans");
 /*!
@@ -338,6 +336,12 @@ h6, .h6 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2; }
+
+@media screen and (max-width: 748px) {
+  .display-1 {
+    font-size: 2rem;
+  }
+}
 
 .display-2 {
   font-size: 5.5rem;
